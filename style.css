@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: roboto, sans-serif;
+}
+
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+#hero {
+    background: #1f2937;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+.header {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
