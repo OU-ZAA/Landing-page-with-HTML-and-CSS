@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-    max-width: 1080px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
@@ -18,9 +18,10 @@ body {
 }
 
 .nav {
+    height: 75px;
     display: flex;
     justify-content: space-between;
-    padding: 16px;
+    align-items: center;
 }
 
 .header {
@@ -32,11 +33,56 @@ body {
 ul {
     list-style: none;
     display: flex;
-    gap: 16px;
+    gap: 24px;
 }
 
 a {
     text-decoration: none;
     color: #e5e7eb;
+    font-size: 18px;
+}
+
+.main {
+    height: 500px;
+    display: flex;
+}
+
+.main-text {
+    font-size: 48px; 
+    font-weight: 900;
+    color: #f9faf8;
+    margin-bottom: 10px;
+}
+
+.secondary-text {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 0 40px 10px 0;
+}
+
+button {
+    background: #3882f6;
+    color: #f9faf8;
+    font-weight: 900;
+    font-size: 18px;
+    padding: 8px 30px;
+    border: none;
+    border-radius: 8px;
+}
+
+.right-col,
+.left-col {
+    width: 50%;
+    flex: 1;
+    margin: auto 0;
+}
+
+.left-col .img {
+    color: #f9faf8;
+    height: 230px;
+    background: #646464;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 18px;
 }
