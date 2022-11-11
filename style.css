@@ -147,3 +147,42 @@ button {
     padding: 0 120px;
 }
 
+#contact {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-container {
+    background: #3882f6;
+    display: flex;
+    gap: 120px;
+    padding: 50px 130px;
+    border-radius: 8px;
+}
+
+#contact .heading {
+    font-size: 24px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+#contact .text {
+    font-size: 18px;
+    color: #f9faf8;
+}
+
+#contact button {
+    border: 2px solid #f9faf8;
+}
+
+#footer {
+    background: #1f2937;
+    color: #f9faf8;
+    font-size: 24px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
