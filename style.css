@@ -123,3 +123,27 @@ button {
     font-size: 18px;
     color: #535353;
 }
+
+#quote {
+    height: 400px;
+    background: #e5e7eb;
+    display: flex;
+    align-items: center;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    font-weight: lighter;
+    padding: 0 120px;
+}
+
+.quote-author {
+    font-size: 24px;
+    font-weight: 900;
+    color: #1f2937;
+    text-align: right;
+    padding: 0 120px;
+}
+
